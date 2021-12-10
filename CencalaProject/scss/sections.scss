@@ -1,0 +1,127 @@
+/* Index Section */
+.indexContainer {
+    display       : flex;
+    flex-direction: column;
+    height        : 71vh;
+    padding       : 2vh 0;
+    width         : 80vw;
+    color         : tomato;
+    margin        : 0 auto;
+}
+
+/* About Section */
+.aboutContainer {
+    display       : flex;
+    flex-direction: column;
+    height        : 71vh;
+    padding       : 2vh 0;
+    width         : 80vw;
+    color         : tomato;
+    margin        : 0 auto;
+}
+
+.vision,
+.mision {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 80vw;
+    height         : 20vh;
+    margin         : auto;
+
+    p {
+        display         : flex;
+        align-items     : center;
+        width           : 60vw;
+        height          : 20vh;
+        margin          : 0 auto;
+        background-color: papayawhip;
+        padding         : 0 2rem;
+    }
+}
+
+.about__image {
+    height    : 20vh;
+    width     : 20vw;
+    object-fit: cover;
+    margin    : 1rem 0;
+}
+
+/* Contact Section */
+
+.contactContainer {
+    display       : flex;
+    flex-direction: column;
+    height        : 71vh;
+    padding       : 2vh 0;
+    width         : 80vw;
+    color         : tomato;
+    margin        : 0 auto;
+}
+
+form {
+    display         : flex;
+    flex-direction  : column;
+    margin          : auto;
+    background-color: papayawhip;
+    align-items     : center;
+    justify-content : center;
+    padding         : 1rem 5rem;
+    height          : 50vh;
+
+    p {
+        margin: 0.5rem 0;
+        width : 100%;
+    }
+}
+
+/* Information Section */
+.informationContainer {
+    display              : grid;
+    grid-template-columns: 2;
+    height               : 71vh;
+    padding              : 2vh 0;
+    width                : 80vw;
+    color                : tomato;
+    margin               : 0 auto;
+    overflow-y           : auto;
+}
+
+.videosYoutube {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+
+    margin: 1rem auto;
+    width : 90%;
+}
+
+/* Vaccine Section */
+
+.vaccinesContainer {
+    display       : flex;
+    flex-direction: column;
+    height        : 71vh;
+    padding       : 2vh 0;
+    width         : 80vw;
+    color         : tomato;
+    margin        : 0 auto;
+}
+
+table {
+    background-color: papayawhip;
+    border          : solid peru;
+    margin          : auto auto;
+}
+
+th {
+    background-color: salmon;
+    font-weight     : bolder;
+    color           : white;
+}
+
+li {
+    list-style-type: square;
+}

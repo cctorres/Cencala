@@ -1,0 +1,83 @@
+    @import "sections.scss";
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    body {
+        margin: 0;
+    }
+
+    body {
+        opacity         : 0.8;
+        background-size : 10px 10px;
+        background-image: repeating-linear-gradient(45deg, #f744ca15 0, #f744ac15 1px, #f7e5eb00 0, #f6e5f700 50%);    }
+
+    .logo {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        justify-content : space-between;
+        background-color: lightcoral;
+        height          : 10vh;
+        color           : white;
+        font-size       : 2rem;
+        padding         : 0 2rem;
+    }
+
+    .logo__image {
+        height          : 8vh;
+        width           : auto;
+        background-color: white;
+        border-radius   : 50%;
+        margin          : 0 0.5rem;
+        animation       : pulseAnimation 2s;
+    }
+
+    @keyframes pulseAnimation {
+        from {
+            transform: none;
+        }
+
+        50% {
+            transform: scale(1.2);
+        }
+
+        to {
+            transform: none;
+        }
+    }
+
+    .menu {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        justify-content : space-around;
+        height          : 5vh;
+        width           : 100vw;
+        background-color: tomato;
+        font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color          : white;
+        cursor         : pointer;
+    }
+
+    .index__image {
+        height    : 60vh;
+        width     : auto;
+        object-fit: cover;
+        margin    : 1rem 0;
+    }
+
+    footer {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        justify-content : center;
+        background-color: lightcoral;
+        height          : 10vh;
+    }

@@ -1,0 +1,177 @@
+/* Index Section */
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  height: 71vh;
+  padding: 2vh 0;
+  width: 80vw;
+  color: tomato;
+  margin: 0 auto; }
+
+/* About Section */
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  height: 71vh;
+  padding: 2vh 0;
+  width: 80vw;
+  color: tomato;
+  margin: 0 auto; }
+
+.vision,
+.mision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 20vh;
+  margin: auto; }
+  .vision p,
+  .mision p {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    height: 20vh;
+    margin: 0 auto;
+    background-color: papayawhip;
+    padding: 0 2rem; }
+
+.about__image {
+  height: 20vh;
+  width: 20vw;
+  object-fit: cover;
+  margin: 1rem 0; }
+
+/* Contact Section */
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  height: 71vh;
+  padding: 2vh 0;
+  width: 80vw;
+  color: tomato;
+  margin: 0 auto; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: papayawhip;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 5rem;
+  height: 50vh; }
+  form p {
+    margin: 0.5rem 0;
+    width: 100%; }
+
+/* Information Section */
+.informationContainer {
+  display: grid;
+  grid-template-columns: 2;
+  height: 71vh;
+  padding: 2vh 0;
+  width: 80vw;
+  color: tomato;
+  margin: 0 auto;
+  overflow-y: auto; }
+
+.videosYoutube {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+iframe {
+  margin: 1rem auto;
+  width: 90%; }
+
+/* Vaccine Section */
+.vaccinesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 71vh;
+  padding: 2vh 0;
+  width: 80vw;
+  color: tomato;
+  margin: 0 auto; }
+
+table {
+  background-color: papayawhip;
+  border: solid peru;
+  margin: auto auto; }
+
+th {
+  background-color: salmon;
+  font-weight: bolder;
+  color: white; }
+
+li {
+  list-style-type: square; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+body {
+  margin: 0; }
+
+body {
+  opacity: 0.8;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #f744ca15 0, #f744ac15 1px, #f7e5eb00 0, #f6e5f700 50%); }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightcoral;
+  height: 10vh;
+  color: white;
+  font-size: 2rem;
+  padding: 0 2rem; }
+
+.logo__image {
+  height: 8vh;
+  width: auto;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  animation: pulseAnimation 2s; }
+
+@keyframes pulseAnimation {
+  from {
+    transform: none; }
+  50% {
+    transform: scale(1.2); }
+  to {
+    transform: none; } }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+  width: 100vw;
+  background-color: tomato;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer; }
+
+.index__image {
+  height: 60vh;
+  width: auto;
+  object-fit: cover;
+  margin: 1rem 0; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcoral;
+  height: 10vh; }

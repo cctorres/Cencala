@@ -1,0 +1,17 @@
+{
+  "name": "cencala",
+  "version": "1.0.0",
+  "description": "Proyecto Diplomado Web Cencala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss CencalaProject/scss/style.scss CencalaProject/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "cctorres",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
